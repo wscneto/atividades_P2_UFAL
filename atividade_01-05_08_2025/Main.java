@@ -1,3 +1,5 @@
+// Data de entrega: 05/08/2025
+
 import java.util.Scanner;
 
 public class Main
