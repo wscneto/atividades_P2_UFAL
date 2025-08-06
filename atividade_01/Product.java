@@ -33,8 +33,8 @@ public class Product
     @Override
     public String toString()
     {
-        return "Product data: " + this.name + ", $" + this.price
-            + ", " + this.quantity + " units, Total: $"
+        return "Product data: " + getName() + ", $" + getPrice()
+            + ", " + getQuantity() + " units, Total: $"
             + totalValueInStock(this.price, this.quantity);
     }
 }
