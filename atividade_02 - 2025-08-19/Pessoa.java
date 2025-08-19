@@ -1,6 +1,6 @@
 // Data de entrega: 19/08/2025
 
-public class Pessoa
+public abstract class Pessoa
 {
     private String name;
     private double annualIncome;
@@ -14,6 +14,6 @@ public class Pessoa
     public String getName() { return this.name; }
     public double getAnnualIncome() { return this.annualIncome; }
 
-    public double calculateTax();
+    public abstract double calculateTax();
 }
 
