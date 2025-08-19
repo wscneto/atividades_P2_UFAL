@@ -22,7 +22,7 @@ public class Main
         System.out.print("Enter the number of tax payers: ");
         numTaxPayers = sc.nextInt();
 
-        for(int i = 0; i < numTaxPayers; i++)
+        for(int i = 1; i <= numTaxPayers; i++)
         {
             System.out.println("Tax payer #" + i + " data:");
             
@@ -30,6 +30,7 @@ public class Main
             indOrComp = sc.next().charAt(0);
 
             System.out.print("Name: ");
+            sc.nextLine();
             name = sc.nextLine();
 
             System.out.print("Annual income: ");
