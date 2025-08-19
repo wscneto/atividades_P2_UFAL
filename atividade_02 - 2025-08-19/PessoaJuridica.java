@@ -5,14 +5,14 @@ public class PessoaJuridica extends Pessoa
 
     public PessoaJuridica(String name, double annualIncome, int numEmployees)
     {
-        super(name. annualIncome);
+        super(name, annualIncome);
         this.numEmployees = numEmployees;
     }
 
     @Override
     public double calculateTax()
     {
-        private double tax;
+        double tax;
 
         if(numEmployees > 10) { tax = getAnnualIncome() * 0.14; }
         else { tax = getAnnualIncome() * 0.16; }
