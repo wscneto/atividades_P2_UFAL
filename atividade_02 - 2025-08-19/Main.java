@@ -34,7 +34,7 @@ public class Main
             if(indOrComp == 'i')
             {
                 System.out.print("Health Expenditures: ");
-                healthExpenditures = sc.nextLine();
+                healthExpenditures = sc.nextDouble();
             }
             else
             {
