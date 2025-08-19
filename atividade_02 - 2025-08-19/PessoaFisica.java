@@ -12,7 +12,7 @@ public class PessoaFisica extends Pessoa
     @Override
     public double calculateTax()
     {
-        private double tax;
+        double tax;
         if(getAnnualIncome() < 20000)
         {
             tax = getAnnualIncome() * 0.15;
