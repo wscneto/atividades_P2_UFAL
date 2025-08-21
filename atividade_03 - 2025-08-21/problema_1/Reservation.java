@@ -43,7 +43,7 @@ public class Reservation
         this.checkout = checkout;
     }
 
-    @override
+    @Override
     public String toString()
     {
         return "Reservation: Room " + this.roomNumber + ", check-in: " + checkin.format(fmt) + ", checkout: " + checkout.format(fmt) + ", " + duration() + " nights";
